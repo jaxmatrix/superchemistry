@@ -10,6 +10,7 @@ export class ViewportComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

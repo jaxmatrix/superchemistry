@@ -1,4 +1,4 @@
 <div class="text-white ml-2 flex-grow-1"> {{ title }}</div>
-<div class="d-inline round exit">x</div>
-<div class="d-inline round minimize">-</div>
-<div class="d-inline round maximize">+</div>
+<button class="d-inline round exit" (click)="closeWindow()" >x</button>
+<button class="d-inline round minimize" (click)="minimizeWindow()" >-</button>
+<button class="d-inline round maximize" (click)="maximizeWindow()" >+</button>

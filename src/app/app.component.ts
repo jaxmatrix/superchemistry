@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component,
+  AfterContentInit
+} from '@angular/core';
 import {
   trigger,
   useAnimation,
@@ -46,7 +48,7 @@ import {
 })
 
 
-export class AppComponent {
+export class AppComponent implements AfterContentInit {
   title = 'qmAnalyze';
   isLeftBarOpen = false;
   isRightBarOpen = false;
@@ -62,5 +64,8 @@ export class AppComponent {
     }
 
 
+  }
+
+  ngAfterContentInit() {
   }
 }
