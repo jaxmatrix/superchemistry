@@ -1,0 +1,41 @@
+$closeColor: rgb(155,83,56);
+$minimizeColor: rgb(56,172,255);
+$maximizeColor: rgb(39,194,54);
+
+.round {
+  box-sizing:border-box;
+
+  border-radius: 50%;
+  background:grey;
+  box-sizing:border-box;
+  width: 20px;
+  height:20px;
+  text-align:center;
+  margin-right:6px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  line-height:16px;
+  color: white;
+  border:1px solid white;
+  font-weight:bold;
+}
+
+.exit {
+  background: $closeColor;
+  font-size:14px;
+  color: white;
+}
+
+.exit:hover {
+  color:white;
+}
+
+.minimize {
+  background: $minimizeColor;
+}
+
+.maximize {
+  background: $maximizeColor;
+}
+
+

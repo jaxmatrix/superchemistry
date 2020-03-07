@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+
+//* {
+//  border : 1px dashed black;
+//}
+
+.debug {
+  border: 1px solid red;
+  background: pink;
+}
+
+html,body {
+
+  margin:0px;
+  padding:0px;
+
+
+
+  height: 100vh;
+  width: 100vw;
+  box-sizing:border-box;
+}

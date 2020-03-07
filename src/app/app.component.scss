@@ -1,0 +1,29 @@
+.noPadding {
+  padding-left: 0px;
+  padding-right:0px;
+}
+
+.leftbar {
+  background: lightblue;
+  border:1px solid blue;
+  width:360px;
+  height:calc(100% - 82px);
+  position: fixed;
+  top:82px;
+  left:-200px;
+  box-sizing:border-box;
+
+  padding-right: 6px;
+}
+
+.rightbar {
+  background: lightgreen;
+  border:1px solid green;
+  width:360px;
+  height:calc(100% - 82px);
+  position: fixed;
+  top:82px;
+  right:-200px;
+  box-sizing:border-box;
+}
+
